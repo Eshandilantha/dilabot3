@@ -1,15 +1,15 @@
 {
-  "name": "DANUWA-MD",
+  "name": "dilabot",
   "version": "1.0.0",
-  "description": "A Powerfull Whatsapp Bot",
+  "description": "A Powerfull Whatsapp dilaBot",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DANUWA-MD",
-    "stop": "pm2 stop DANUWA-MD",
-    "restart": "pm2 restart DANUWA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name dilabot",
+    "stop": "pm2 stop dilabot",
+    "restart": "pm2 restart dilabot"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.16",
+    "@whiskeysockets/baileys": "^6.7.18",
     "api-dylux": "^1.8.5",
     "axios": "^1.9.0",
     "browser-id3-writer": "^6.2.0",
